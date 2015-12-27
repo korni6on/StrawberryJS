@@ -1,0 +1,2 @@
+# StrawberryJS
+Simple JS lib
