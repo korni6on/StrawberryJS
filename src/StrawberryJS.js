@@ -56,7 +56,6 @@
         }
     };
 
-    // Assign our Q object to global window object.
     if (!window.S) {
         window.S = S;
     }
