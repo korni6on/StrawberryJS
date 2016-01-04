@@ -11,7 +11,7 @@
         while (len--) {
             this[len] = selector[len]
         }
-
+        
         return this;
     };
 
@@ -20,15 +20,16 @@
             version: '0.0.1',
             homeurl: 'https://github.com/korni6on/StrawberryJS'
         },
+        
         show: function () {
             var len = this.length;
             while (len--) {
                 this[len].style.display = 'block';
-                this[len].dispatchEvent(this.events.show);
             }
 
             return this;
         },
+        
         hide: function () {
             var len = this.length;
             while (len--) {
@@ -37,6 +38,27 @@
 
             return this;
         },
+        
+        visible: function()
+        {
+            var len = this.length;
+            while (len--) {
+                this[len].style.visibility = "visible" ;
+            }
+
+            return this;
+        },
+        
+        hidden: function()
+        {
+            var len = this.length;
+            while (len--) {
+                this[len].style.visibility = "hidden" ;
+            }
+
+            return this;
+        },
+        
         text: function (join) {
             var len = this.length,
                     text = [];
