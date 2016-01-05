@@ -9,7 +9,7 @@
         this.length = selector.length;
         var len = this.length;
         while (len--) {
-            this[len] = selector[len]
+            this[len] = selector[len];
         }
         
         return this;
