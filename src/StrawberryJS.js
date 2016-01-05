@@ -16,6 +16,7 @@
     };
 
     S.fn = Strawberry.prototype = {
+        
         about: {
             version: '0.0.1',
             homeurl: 'https://github.com/korni6on/StrawberryJS'
